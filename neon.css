@@ -1,0 +1,58 @@
+i {
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+#maskin {
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+
+.list1:nth-child(2)
+{
+
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+#tabell{
+    background-color: white;
+     border: 1px solid gray;
+     border-spacing: 0px;
+     text-align: center;
+
+
+
+}
+
+tr{
+    background-color: white;
+     border: 1px solid black;
+     border-spacing: 0px;
+     margin: 0px;
+
+
+
+}
+
+th{
+    background-color: pink;
+    color: white;
+    border: 1px solid gray;
+    padding: 1rem;
+    
+
+}
+
+th:nth-child(even){
+    width: 13rem;
+
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(243, 225, 225);
+}
+
+td {
+    border: 1px solid gray;
+    padding: 1rem;
+
+}
